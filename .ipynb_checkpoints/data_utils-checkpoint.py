@@ -20,6 +20,8 @@ def load_dataset(name, transform=None, data_dir=None):
     """
     Loads the specified dataset (either HAM10000 or NIH) from
     data_dir, applying transform.
+    
+    Returns a training and testing/val dataset
     """
     if name == "HAM10000":
         if data_dir is None:
@@ -27,13 +29,13 @@ def load_dataset(name, transform=None, data_dir=None):
             
         return load_ham10000_dataset(data_dir, transform, True)
     elif name == "NIH":
-        # TODO: write function to load NIH dataset
+        # TODO: write function to load NIH dataset. We probably need to modify this stuff a bit bc NIH give train/val/test but HAM is only one split.
         if data_dir is None:
             data_dir = "data/nih"
             
         raise NotImplementedError("This dataset isn't implemented")
     else:
-        raise ValueError("Invalid Dataset")
+        raise ValueError("expected either 'HAM10000' or 'NIH', but received " + name)
 
 def load_ham10000_dataset(data_dir="data/ham10000", transform=None, split=True):
     print("Loading HAM10000 dataset...")
