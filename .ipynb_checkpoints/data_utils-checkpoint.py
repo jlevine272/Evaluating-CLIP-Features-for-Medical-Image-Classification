@@ -16,15 +16,38 @@ LESION_TYPE = {
         'df': 'Dermatofibroma'
     }
 
+def load_dataset(name, transform=None, data_dir=None):
+    """
+    Loads the specified dataset (either HAM10000 or NIH) from
+    data_dir, applying transform.
+    """
+    if name == "HAM10000":
+        if data_dir is None:
+            data_dir = "data/ham10000"
+            
+        return load_ham10000_dataset(data_dir, transform, True)
+    elif name == "NIH":
+        # TODO: write function to load NIH dataset
+        if data_dir is None:
+            data_dir = "data/nih"
+            
+        raise NotImplementedError("This dataset isn't implemented")
+    else:
+        raise ValueError("Invalid Dataset")
+
 def load_ham10000_dataset(data_dir="data/ham10000", transform=None, split=True):
+    print("Loading HAM10000 dataset...")
     df = get_dataframe(data_dir)
     dataset = HAM10000(df, transform)
     if split:
-        train_len = int(len(dataset) * 0.9)
-        test_len = len(dataset) - train_len
-        train, test = random_split(dataset,(train_len, test_len))
-        return train, test
-    return dataset
+        train_size = int(0.9 * len(dataset))
+        test_size = len(dataset) - train_size
+        train_dataset, test_dataset = random_split(dataset, [train_size, test_size])
+        return train_dataset, test_dataset
+    else:
+        return dataset
+    
+
 
 class HAM10000(Dataset):
     def __init__(self, df, transform=None):
