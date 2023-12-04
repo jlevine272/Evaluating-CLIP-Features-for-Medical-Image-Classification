@@ -1,0 +1,49 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.9.12",
+    "heartbeatAt": "2023-12-04T00:15:38.238205",
+    "startedAt": "2023-12-04T00:15:37.828783",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "Documents/laz_final_proj/ham10000.ipynb",
+    "root": "C:/Users/Josh/Documents/laz_final_proj",
+    "git": {
+        "remote": "https://github.com/jlevine272/Evaluating-CLIP-Features-for-Medical-Image-Classification.git",
+        "commit": "d496f4b2796a409636385aa0ace07b8439430982"
+    },
+    "email": "53155851+jlevine272@users.noreply.github.com",
+    "host": "PC-2770",
+    "username": "Josh",
+    "executable": "C:\\Users\\Josh\\anaconda3\\python.exe",
+    "cpu_count": 12,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 3701.0,
+        "min": 0.0,
+        "max": 3701.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3701.0,
+            "min": 0.0,
+            "max": 3701.0
+        }
+    ],
+    "disk": {
+        "total": 685.9912071228027,
+        "used": 667.5873908996582
+    },
+    "gpu": "NVIDIA GeForce RTX 3080 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3080 Ti",
+            "memory_total": 12884901888
+        }
+    ],
+    "memory": {
+        "total": 31.91226577758789
+    }
+}

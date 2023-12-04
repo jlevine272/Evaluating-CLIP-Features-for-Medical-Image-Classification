@@ -42,7 +42,7 @@ def load_ham10000_dataset(data_dir="data/ham10000", transform=None, split=True):
     df = get_dataframe(data_dir)
     dataset = HAM10000(df, transform)
     if split:
-        train_size = int(0.9 * len(dataset))
+        train_size = int(0.8 * len(dataset))
         test_size = len(dataset) - train_size
         train_dataset, test_dataset = random_split(dataset, [train_size, test_size])
         return train_dataset, test_dataset
@@ -62,12 +62,11 @@ class HAM10000(Dataset):
     def __getitem__(self, index):
         # Load data and get label
         X = Image.open(self.df['path'][index])
-        y = torch.tensor(int(self.df['cell_type_idx'][index]))
 
         if self.transform:
             X = self.transform(X)
 
-        return X, y
+        return X, torch.tensor(int(self.df['cell_type_idx'][index]))
 
 def get_dataframe(data_dir):
     # https://www.kaggle.com/code/xinruizhuang/skin-lesion-classification-acc-90-pytorch
