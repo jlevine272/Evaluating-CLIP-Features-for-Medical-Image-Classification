@@ -68,3 +68,635 @@
 2023-12-03 18:20:54,009 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
 2023-12-03 18:20:54,010 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
 2023-12-03 18:20:55,091 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:21:00,132 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:21:05,169 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:21:09,033 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:21:09,034 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:21:10,202 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:21:15,225 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:21:16,200 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:21:20,233 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:21:24,042 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:21:24,042 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:21:26,123 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:21:31,117 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-03 18:21:31,118 DEBUG   SenderThread:10212 [sender.py:send():375] send: history
+2023-12-03 18:21:31,119 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: summary_record
+2023-12-03 18:21:31,120 INFO    SenderThread:10212 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-12-03 18:21:31,978 INFO    Thread-45 :10212 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\wandb-summary.json
+2023-12-03 18:21:31,978 INFO    Thread-45 :10212 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\output.log
+2023-12-03 18:21:32,130 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:21:34,011 INFO    Thread-45 :10212 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\output.log
+2023-12-03 18:21:37,149 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:21:39,055 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:21:39,056 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:21:42,174 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:21:46,207 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:21:47,217 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:21:52,271 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:21:54,075 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:21:54,075 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:21:58,235 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:22:03,280 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:22:08,307 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:22:09,079 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:22:09,080 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:22:14,217 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:22:16,208 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:22:19,235 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:22:24,082 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:22:24,083 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:22:24,238 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:22:29,273 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:22:34,309 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:22:39,089 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:22:39,090 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:22:40,239 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:22:45,275 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:22:46,224 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:22:51,267 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:22:54,102 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:22:54,102 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:22:57,261 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:22:59,515 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-03 18:22:59,516 DEBUG   SenderThread:10212 [sender.py:send():375] send: history
+2023-12-03 18:22:59,516 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: summary_record
+2023-12-03 18:22:59,517 INFO    SenderThread:10212 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-12-03 18:22:59,703 INFO    Thread-45 :10212 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\wandb-summary.json
+2023-12-03 18:23:01,726 INFO    Thread-45 :10212 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\output.log
+2023-12-03 18:23:02,549 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:23:07,603 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:23:09,113 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:23:09,113 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:23:13,283 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:23:16,239 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:23:19,271 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:23:24,123 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:23:24,123 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:23:25,245 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:23:30,290 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:23:35,315 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:23:39,125 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:23:39,125 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:23:41,280 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:23:46,241 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:23:47,243 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:23:52,305 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:23:54,131 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:23:54,132 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:23:58,267 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:24:03,323 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:24:08,367 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:24:09,142 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:24:09,142 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:24:14,311 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:24:16,247 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:24:20,266 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:24:24,137 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:24:24,137 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:24:25,292 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:24:27,121 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-03 18:24:27,122 DEBUG   SenderThread:10212 [sender.py:send():375] send: history
+2023-12-03 18:24:27,123 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: summary_record
+2023-12-03 18:24:27,124 INFO    SenderThread:10212 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-12-03 18:24:27,632 INFO    Thread-45 :10212 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\wandb-summary.json
+2023-12-03 18:24:28,647 INFO    Thread-45 :10212 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\output.log
+2023-12-03 18:24:31,167 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:24:36,196 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:24:39,150 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:24:39,151 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:24:41,311 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:24:46,262 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:24:47,272 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:24:52,295 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:24:54,149 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:24:54,150 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:24:58,275 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:25:03,305 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:25:08,351 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:25:09,162 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:25:09,163 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:25:14,350 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:25:16,277 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:25:20,310 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:25:24,182 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:25:24,182 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:25:25,400 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:25:30,444 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:25:35,479 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:25:39,187 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:25:39,188 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:25:41,312 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:25:46,277 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:25:47,298 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:25:52,330 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:25:54,183 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:25:54,184 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:25:55,964 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-03 18:25:55,964 DEBUG   SenderThread:10212 [sender.py:send():375] send: history
+2023-12-03 18:25:55,965 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: summary_record
+2023-12-03 18:25:55,966 INFO    SenderThread:10212 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-12-03 18:25:56,413 INFO    Thread-45 :10212 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\wandb-summary.json
+2023-12-03 18:25:58,000 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:25:58,428 INFO    Thread-45 :10212 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\output.log
+2023-12-03 18:26:03,035 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:26:08,071 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:26:09,193 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:26:09,194 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:26:13,293 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:26:16,280 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:26:18,306 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:26:23,349 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:26:24,200 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:26:24,200 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:26:28,373 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:26:33,403 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:26:38,436 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:26:39,210 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:26:39,211 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:26:44,333 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:26:46,282 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:26:50,322 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:26:54,217 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:26:54,218 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:26:55,341 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:27:00,373 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:27:05,425 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:27:09,222 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:27:09,222 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:27:11,355 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:27:16,283 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:27:17,289 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:27:22,318 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:27:24,219 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:27:24,220 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:27:27,387 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:27:29,014 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-03 18:27:29,015 DEBUG   SenderThread:10212 [sender.py:send():375] send: history
+2023-12-03 18:27:29,015 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: summary_record
+2023-12-03 18:27:29,016 INFO    SenderThread:10212 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-12-03 18:27:29,249 INFO    Thread-45 :10212 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\wandb-summary.json
+2023-12-03 18:27:31,272 INFO    Thread-45 :10212 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\output.log
+2023-12-03 18:27:33,047 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:27:38,095 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:27:39,232 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:27:40,236 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:27:43,632 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:27:46,289 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:27:49,303 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:27:54,237 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:27:54,238 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:27:54,386 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:27:59,437 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:28:04,481 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:28:09,241 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:28:09,242 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:28:10,319 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:28:15,367 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:28:16,303 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:28:21,346 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:28:24,253 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:28:24,254 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:28:27,349 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:28:32,391 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:28:37,447 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:28:39,257 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:28:39,258 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:28:43,405 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:28:46,309 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:28:49,326 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:28:54,269 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:28:54,270 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:28:54,375 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:28:58,926 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-03 18:28:58,927 DEBUG   SenderThread:10212 [sender.py:send():375] send: history
+2023-12-03 18:28:58,927 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: summary_record
+2023-12-03 18:28:58,928 INFO    SenderThread:10212 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-12-03 18:28:59,192 INFO    Thread-45 :10212 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\wandb-summary.json
+2023-12-03 18:28:59,931 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:29:01,204 INFO    Thread-45 :10212 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\output.log
+2023-12-03 18:29:04,969 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:29:09,273 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:29:09,274 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:29:10,387 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:29:15,420 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:29:16,320 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:29:21,373 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:29:24,278 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:29:24,279 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:29:26,378 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:29:31,408 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:29:36,449 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:29:39,289 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:29:39,290 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:29:42,415 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:29:46,323 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:29:48,345 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:29:53,372 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:29:54,305 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:29:54,306 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:29:58,441 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:30:03,480 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:30:08,515 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:30:09,320 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:30:09,321 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:30:14,419 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:30:16,325 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:30:20,347 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:30:24,342 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:30:24,343 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:30:25,332 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-03 18:30:25,333 DEBUG   SenderThread:10212 [sender.py:send():375] send: history
+2023-12-03 18:30:25,333 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: summary_record
+2023-12-03 18:30:25,334 INFO    SenderThread:10212 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-12-03 18:30:25,938 INFO    Thread-45 :10212 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\wandb-summary.json
+2023-12-03 18:30:26,346 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:30:27,959 INFO    Thread-45 :10212 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\output.log
+2023-12-03 18:30:31,379 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:30:36,422 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:30:39,345 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:30:39,345 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:30:41,453 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:30:46,335 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:30:47,343 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:30:52,405 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:30:54,348 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:30:54,349 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:30:57,463 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:31:02,517 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:31:07,569 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:31:09,350 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:31:09,351 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:31:13,533 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:31:16,350 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:31:19,381 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:31:24,358 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:31:24,358 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:31:24,499 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:31:29,529 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:31:34,554 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:31:39,368 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:31:39,369 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:31:40,423 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:31:45,465 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:31:46,362 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:31:51,401 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:31:53,992 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: partial_history
+2023-12-03 18:31:53,993 DEBUG   SenderThread:10212 [sender.py:send():375] send: history
+2023-12-03 18:31:53,993 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: summary_record
+2023-12-03 18:31:53,994 INFO    SenderThread:10212 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-12-03 18:31:54,388 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:31:54,389 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:31:54,499 INFO    Thread-45 :10212 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\wandb-summary.json
+2023-12-03 18:31:56,449 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:31:56,514 INFO    Thread-45 :10212 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\output.log
+2023-12-03 18:32:01,491 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:32:06,537 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:32:09,400 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:32:09,401 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:32:12,512 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:32:16,374 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:32:18,388 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:32:23,433 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:32:24,397 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:32:24,398 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:32:28,519 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:32:33,573 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:32:38,637 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:32:39,408 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:32:39,409 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:32:44,600 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:32:46,386 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:32:50,423 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:32:54,407 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:32:54,408 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:32:55,545 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:32:58,499 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: pause
+2023-12-03 18:32:58,499 INFO    HandlerThread:10212 [handler.py:handle_request_pause():719] stopping system metrics thread or process
+2023-12-03 18:32:58,499 INFO    HandlerThread:10212 [system_monitor.py:finish():190] Stopping system monitor
+2023-12-03 18:32:58,499 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-12-03 18:32:58,499 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-12-03 18:32:58,500 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-03 18:32:58,509 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined disk monitor
+2023-12-03 18:32:58,567 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined gpu monitor
+2023-12-03 18:32:58,568 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined memory monitor
+2023-12-03 18:32:58,568 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined network monitor
+2023-12-03 18:32:58,569 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:33:00,582 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:33:05,623 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:33:09,408 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:33:09,409 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:33:11,480 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:33:14,034 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: resume
+2023-12-03 18:33:14,034 INFO    HandlerThread:10212 [handler.py:handle_request_resume():710] starting system metrics thread or process
+2023-12-03 18:33:14,034 INFO    HandlerThread:10212 [system_monitor.py:start():181] Starting system monitor
+2023-12-03 18:33:14,035 INFO    SystemMonitor:10212 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-12-03 18:33:14,045 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started cpu monitoring
+2023-12-03 18:33:14,045 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started disk monitoring
+2023-12-03 18:33:14,046 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started gpu monitoring
+2023-12-03 18:33:14,047 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started memory monitoring
+2023-12-03 18:33:14,063 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started network monitoring
+2023-12-03 18:33:14,358 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: pause
+2023-12-03 18:33:14,358 INFO    HandlerThread:10212 [handler.py:handle_request_pause():719] stopping system metrics thread or process
+2023-12-03 18:33:14,359 INFO    HandlerThread:10212 [system_monitor.py:finish():190] Stopping system monitor
+2023-12-03 18:33:14,359 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-12-03 18:33:14,359 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-03 18:33:14,359 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-12-03 18:33:14,361 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined disk monitor
+2023-12-03 18:33:14,361 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-12-03 18:33:14,416 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined gpu monitor
+2023-12-03 18:33:14,417 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined memory monitor
+2023-12-03 18:33:14,417 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined network monitor
+2023-12-03 18:33:14,418 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:33:15,816 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: resume
+2023-12-03 18:33:15,816 INFO    HandlerThread:10212 [handler.py:handle_request_resume():710] starting system metrics thread or process
+2023-12-03 18:33:15,816 INFO    HandlerThread:10212 [system_monitor.py:start():181] Starting system monitor
+2023-12-03 18:33:15,816 INFO    SystemMonitor:10212 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-12-03 18:33:15,824 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started cpu monitoring
+2023-12-03 18:33:15,825 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: pause
+2023-12-03 18:33:15,825 INFO    HandlerThread:10212 [handler.py:handle_request_pause():719] stopping system metrics thread or process
+2023-12-03 18:33:15,825 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started disk monitoring
+2023-12-03 18:33:15,825 INFO    HandlerThread:10212 [system_monitor.py:finish():190] Stopping system monitor
+2023-12-03 18:33:15,826 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started gpu monitoring
+2023-12-03 18:33:15,826 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-03 18:33:15,826 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-12-03 18:33:15,827 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined disk monitor
+2023-12-03 18:33:15,827 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-12-03 18:33:15,827 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-12-03 18:33:15,906 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined gpu monitor
+2023-12-03 18:33:15,906 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:33:16,210 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: resume
+2023-12-03 18:33:16,210 INFO    HandlerThread:10212 [handler.py:handle_request_resume():710] starting system metrics thread or process
+2023-12-03 18:33:16,211 INFO    HandlerThread:10212 [system_monitor.py:start():181] Starting system monitor
+2023-12-03 18:33:16,211 INFO    SystemMonitor:10212 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-12-03 18:33:16,219 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started cpu monitoring
+2023-12-03 18:33:16,221 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started disk monitoring
+2023-12-03 18:33:16,223 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started gpu monitoring
+2023-12-03 18:33:16,226 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started memory monitoring
+2023-12-03 18:33:16,240 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started network monitoring
+2023-12-03 18:33:16,315 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: pause
+2023-12-03 18:33:16,315 INFO    HandlerThread:10212 [handler.py:handle_request_pause():719] stopping system metrics thread or process
+2023-12-03 18:33:16,315 INFO    HandlerThread:10212 [system_monitor.py:finish():190] Stopping system monitor
+2023-12-03 18:33:16,316 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-03 18:33:16,316 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-12-03 18:33:16,316 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined disk monitor
+2023-12-03 18:33:16,326 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-12-03 18:33:16,335 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-12-03 18:33:16,372 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined gpu monitor
+2023-12-03 18:33:16,373 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined memory monitor
+2023-12-03 18:33:16,373 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined network monitor
+2023-12-03 18:33:16,373 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:33:16,710 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: resume
+2023-12-03 18:33:16,710 INFO    HandlerThread:10212 [handler.py:handle_request_resume():710] starting system metrics thread or process
+2023-12-03 18:33:16,710 INFO    HandlerThread:10212 [system_monitor.py:start():181] Starting system monitor
+2023-12-03 18:33:16,711 INFO    SystemMonitor:10212 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-12-03 18:33:16,716 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started cpu monitoring
+2023-12-03 18:33:16,716 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: pause
+2023-12-03 18:33:16,717 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started disk monitoring
+2023-12-03 18:33:16,717 INFO    HandlerThread:10212 [handler.py:handle_request_pause():719] stopping system metrics thread or process
+2023-12-03 18:33:16,717 INFO    HandlerThread:10212 [system_monitor.py:finish():190] Stopping system monitor
+2023-12-03 18:33:16,717 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started gpu monitoring
+2023-12-03 18:33:16,718 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-03 18:33:16,718 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-12-03 18:33:16,718 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined disk monitor
+2023-12-03 18:33:16,718 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-12-03 18:33:16,718 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-12-03 18:33:16,786 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined gpu monitor
+2023-12-03 18:33:16,786 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:33:16,787 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:33:17,108 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: resume
+2023-12-03 18:33:17,108 INFO    HandlerThread:10212 [handler.py:handle_request_resume():710] starting system metrics thread or process
+2023-12-03 18:33:17,108 INFO    HandlerThread:10212 [system_monitor.py:start():181] Starting system monitor
+2023-12-03 18:33:17,109 INFO    SystemMonitor:10212 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-12-03 18:33:17,118 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started cpu monitoring
+2023-12-03 18:33:17,118 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: pause
+2023-12-03 18:33:17,118 INFO    HandlerThread:10212 [handler.py:handle_request_pause():719] stopping system metrics thread or process
+2023-12-03 18:33:17,118 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started disk monitoring
+2023-12-03 18:33:17,118 INFO    HandlerThread:10212 [system_monitor.py:finish():190] Stopping system monitor
+2023-12-03 18:33:17,119 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started gpu monitoring
+2023-12-03 18:33:17,119 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-12-03 18:33:17,119 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-03 18:33:17,120 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-12-03 18:33:17,120 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined disk monitor
+2023-12-03 18:33:17,120 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-12-03 18:33:17,187 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined gpu monitor
+2023-12-03 18:33:17,187 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:33:18,519 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: resume
+2023-12-03 18:33:18,520 INFO    HandlerThread:10212 [handler.py:handle_request_resume():710] starting system metrics thread or process
+2023-12-03 18:33:18,520 INFO    HandlerThread:10212 [system_monitor.py:start():181] Starting system monitor
+2023-12-03 18:33:18,520 INFO    SystemMonitor:10212 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-12-03 18:33:18,528 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started cpu monitoring
+2023-12-03 18:33:18,529 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: pause
+2023-12-03 18:33:18,529 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started disk monitoring
+2023-12-03 18:33:18,529 INFO    HandlerThread:10212 [handler.py:handle_request_pause():719] stopping system metrics thread or process
+2023-12-03 18:33:18,530 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started gpu monitoring
+2023-12-03 18:33:18,530 INFO    HandlerThread:10212 [system_monitor.py:finish():190] Stopping system monitor
+2023-12-03 18:33:18,530 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started memory monitoring
+2023-12-03 18:33:18,530 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-03 18:33:18,531 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-12-03 18:33:18,531 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined disk monitor
+2023-12-03 18:33:18,531 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-12-03 18:33:18,531 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-12-03 18:33:18,595 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined gpu monitor
+2023-12-03 18:33:18,596 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined memory monitor
+2023-12-03 18:33:18,596 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:33:18,891 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: resume
+2023-12-03 18:33:18,892 INFO    HandlerThread:10212 [handler.py:handle_request_resume():710] starting system metrics thread or process
+2023-12-03 18:33:18,892 INFO    HandlerThread:10212 [system_monitor.py:start():181] Starting system monitor
+2023-12-03 18:33:18,892 INFO    SystemMonitor:10212 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-12-03 18:33:18,900 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started cpu monitoring
+2023-12-03 18:33:18,901 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: pause
+2023-12-03 18:33:18,901 INFO    HandlerThread:10212 [handler.py:handle_request_pause():719] stopping system metrics thread or process
+2023-12-03 18:33:18,901 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started disk monitoring
+2023-12-03 18:33:18,901 INFO    HandlerThread:10212 [system_monitor.py:finish():190] Stopping system monitor
+2023-12-03 18:33:18,902 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-03 18:33:18,902 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started gpu monitoring
+2023-12-03 18:33:18,902 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined disk monitor
+2023-12-03 18:33:18,903 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-12-03 18:33:18,903 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined gpu monitor
+2023-12-03 18:33:18,903 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-12-03 18:33:18,903 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-12-03 18:33:18,904 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:33:19,256 INFO    Thread-45 :10212 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\output.log
+2023-12-03 18:33:19,262 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: resume
+2023-12-03 18:33:19,262 INFO    HandlerThread:10212 [handler.py:handle_request_resume():710] starting system metrics thread or process
+2023-12-03 18:33:19,262 INFO    HandlerThread:10212 [system_monitor.py:start():181] Starting system monitor
+2023-12-03 18:33:19,262 INFO    SystemMonitor:10212 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-12-03 18:33:19,270 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started cpu monitoring
+2023-12-03 18:33:19,271 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started disk monitoring
+2023-12-03 18:33:19,271 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started gpu monitoring
+2023-12-03 18:33:19,272 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started memory monitoring
+2023-12-03 18:33:19,285 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started network monitoring
+2023-12-03 18:33:21,937 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:33:24,411 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: stop_status
+2023-12-03 18:33:24,412 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: stop_status
+2023-12-03 18:33:27,546 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:33:31,949 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: pause
+2023-12-03 18:33:31,949 INFO    HandlerThread:10212 [handler.py:handle_request_pause():719] stopping system metrics thread or process
+2023-12-03 18:33:31,950 INFO    HandlerThread:10212 [system_monitor.py:finish():190] Stopping system monitor
+2023-12-03 18:33:31,950 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-12-03 18:33:31,950 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-03 18:33:31,950 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-12-03 18:33:31,960 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined disk monitor
+2023-12-03 18:33:31,972 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-12-03 18:33:32,010 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined gpu monitor
+2023-12-03 18:33:32,011 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined memory monitor
+2023-12-03 18:33:32,011 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined network monitor
+2023-12-03 18:33:32,012 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:33:32,349 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: resume
+2023-12-03 18:33:32,349 INFO    HandlerThread:10212 [handler.py:handle_request_resume():710] starting system metrics thread or process
+2023-12-03 18:33:32,349 INFO    HandlerThread:10212 [system_monitor.py:start():181] Starting system monitor
+2023-12-03 18:33:32,350 INFO    SystemMonitor:10212 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-12-03 18:33:32,358 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started cpu monitoring
+2023-12-03 18:33:32,358 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: pause
+2023-12-03 18:33:32,358 INFO    HandlerThread:10212 [handler.py:handle_request_pause():719] stopping system metrics thread or process
+2023-12-03 18:33:32,358 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started disk monitoring
+2023-12-03 18:33:32,359 INFO    HandlerThread:10212 [system_monitor.py:finish():190] Stopping system monitor
+2023-12-03 18:33:32,359 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started gpu monitoring
+2023-12-03 18:33:32,359 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-12-03 18:33:32,360 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-03 18:33:32,360 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-12-03 18:33:32,360 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined disk monitor
+2023-12-03 18:33:32,360 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-12-03 18:33:32,435 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined gpu monitor
+2023-12-03 18:33:32,436 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:33:32,438 INFO    Thread-45 :10212 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\output.log
+2023-12-03 18:33:32,718 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: resume
+2023-12-03 18:33:32,719 INFO    HandlerThread:10212 [handler.py:handle_request_resume():710] starting system metrics thread or process
+2023-12-03 18:33:32,719 INFO    HandlerThread:10212 [system_monitor.py:start():181] Starting system monitor
+2023-12-03 18:33:32,719 INFO    SystemMonitor:10212 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-12-03 18:33:32,727 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started cpu monitoring
+2023-12-03 18:33:32,727 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started disk monitoring
+2023-12-03 18:33:32,728 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started gpu monitoring
+2023-12-03 18:33:32,728 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started memory monitoring
+2023-12-03 18:33:32,741 INFO    SystemMonitor:10212 [interfaces.py:start():190] Started network monitoring
+2023-12-03 18:33:32,742 DEBUG   SenderThread:10212 [sender.py:send():375] send: telemetry
+2023-12-03 18:33:32,742 DEBUG   SenderThread:10212 [sender.py:send():375] send: exit
+2023-12-03 18:33:32,742 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:33:32,742 INFO    SenderThread:10212 [sender.py:send_exit():598] handling exit code: 0
+2023-12-03 18:33:32,742 INFO    SenderThread:10212 [sender.py:send_exit():600] handling runtime: 806
+2023-12-03 18:33:32,743 INFO    SenderThread:10212 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-12-03 18:33:32,743 INFO    SenderThread:10212 [sender.py:send_exit():606] send defer
+2023-12-03 18:33:32,743 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: defer
+2023-12-03 18:33:32,744 INFO    HandlerThread:10212 [handler.py:handle_request_defer():170] handle defer: 0
+2023-12-03 18:33:32,744 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: defer
+2023-12-03 18:33:32,744 INFO    SenderThread:10212 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-12-03 18:33:32,744 INFO    SenderThread:10212 [sender.py:transition_state():626] send defer: 1
+2023-12-03 18:33:32,744 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: defer
+2023-12-03 18:33:32,744 INFO    HandlerThread:10212 [handler.py:handle_request_defer():170] handle defer: 1
+2023-12-03 18:33:32,745 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: defer
+2023-12-03 18:33:32,745 INFO    SenderThread:10212 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-12-03 18:33:32,745 INFO    SenderThread:10212 [sender.py:transition_state():626] send defer: 2
+2023-12-03 18:33:32,745 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: defer
+2023-12-03 18:33:32,745 INFO    HandlerThread:10212 [handler.py:handle_request_defer():170] handle defer: 2
+2023-12-03 18:33:32,745 INFO    HandlerThread:10212 [system_monitor.py:finish():190] Stopping system monitor
+2023-12-03 18:33:32,745 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined cpu monitor
+2023-12-03 18:33:32,746 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-12-03 18:33:32,746 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined disk monitor
+2023-12-03 18:33:32,755 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-12-03 18:33:32,764 DEBUG   SystemMonitor:10212 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-12-03 18:33:32,796 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined gpu monitor
+2023-12-03 18:33:32,797 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined memory monitor
+2023-12-03 18:33:32,797 INFO    HandlerThread:10212 [interfaces.py:finish():202] Joined network monitor
+2023-12-03 18:33:32,798 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: defer
+2023-12-03 18:33:32,798 INFO    SenderThread:10212 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-12-03 18:33:32,798 INFO    SenderThread:10212 [sender.py:transition_state():626] send defer: 3
+2023-12-03 18:33:32,798 DEBUG   SenderThread:10212 [sender.py:send():375] send: stats
+2023-12-03 18:33:32,798 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: defer
+2023-12-03 18:33:32,799 INFO    HandlerThread:10212 [handler.py:handle_request_defer():170] handle defer: 3
+2023-12-03 18:33:32,799 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: defer
+2023-12-03 18:33:32,799 INFO    SenderThread:10212 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-12-03 18:33:32,799 INFO    SenderThread:10212 [sender.py:transition_state():626] send defer: 4
+2023-12-03 18:33:32,799 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: defer
+2023-12-03 18:33:32,799 INFO    HandlerThread:10212 [handler.py:handle_request_defer():170] handle defer: 4
+2023-12-03 18:33:32,799 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: defer
+2023-12-03 18:33:32,799 INFO    SenderThread:10212 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-12-03 18:33:32,799 INFO    SenderThread:10212 [sender.py:transition_state():626] send defer: 5
+2023-12-03 18:33:32,799 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: defer
+2023-12-03 18:33:32,801 INFO    HandlerThread:10212 [handler.py:handle_request_defer():170] handle defer: 5
+2023-12-03 18:33:32,801 DEBUG   SenderThread:10212 [sender.py:send():375] send: summary
+2023-12-03 18:33:32,801 INFO    SenderThread:10212 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-12-03 18:33:32,802 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: defer
+2023-12-03 18:33:32,802 INFO    SenderThread:10212 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-12-03 18:33:32,802 INFO    SenderThread:10212 [sender.py:transition_state():626] send defer: 6
+2023-12-03 18:33:32,802 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: defer
+2023-12-03 18:33:32,802 INFO    HandlerThread:10212 [handler.py:handle_request_defer():170] handle defer: 6
+2023-12-03 18:33:32,802 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: defer
+2023-12-03 18:33:32,803 INFO    SenderThread:10212 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-12-03 18:33:32,805 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: status_report
+2023-12-03 18:33:32,861 INFO    SenderThread:10212 [sender.py:transition_state():626] send defer: 7
+2023-12-03 18:33:32,861 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: defer
+2023-12-03 18:33:32,861 INFO    HandlerThread:10212 [handler.py:handle_request_defer():170] handle defer: 7
+2023-12-03 18:33:32,861 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: defer
+2023-12-03 18:33:32,862 INFO    SenderThread:10212 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-12-03 18:33:33,453 INFO    Thread-45 :10212 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\config.yaml
+2023-12-03 18:33:33,453 INFO    Thread-45 :10212 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\wandb-summary.json
+2023-12-03 18:33:33,747 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: poll_exit
+2023-12-03 18:33:34,319 INFO    SenderThread:10212 [sender.py:transition_state():626] send defer: 8
+2023-12-03 18:33:34,320 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: poll_exit
+2023-12-03 18:33:34,320 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: defer
+2023-12-03 18:33:34,320 INFO    HandlerThread:10212 [handler.py:handle_request_defer():170] handle defer: 8
+2023-12-03 18:33:34,320 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: defer
+2023-12-03 18:33:34,320 INFO    SenderThread:10212 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-12-03 18:33:34,321 INFO    SenderThread:10212 [sender.py:transition_state():626] send defer: 9
+2023-12-03 18:33:34,321 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: defer
+2023-12-03 18:33:34,321 INFO    HandlerThread:10212 [handler.py:handle_request_defer():170] handle defer: 9
+2023-12-03 18:33:34,322 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: defer
+2023-12-03 18:33:34,322 INFO    SenderThread:10212 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-12-03 18:33:34,322 INFO    SenderThread:10212 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-12-03 18:33:34,463 INFO    SenderThread:10212 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\output.log
+2023-12-03 18:33:34,463 INFO    SenderThread:10212 [dir_watcher.py:finish():395] scan: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files
+2023-12-03 18:33:34,464 INFO    SenderThread:10212 [dir_watcher.py:finish():409] scan save: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\conda-environment.yaml conda-environment.yaml
+2023-12-03 18:33:34,464 INFO    SenderThread:10212 [dir_watcher.py:finish():409] scan save: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\config.yaml config.yaml
+2023-12-03 18:33:34,466 INFO    SenderThread:10212 [dir_watcher.py:finish():409] scan save: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\output.log output.log
+2023-12-03 18:33:34,469 INFO    SenderThread:10212 [dir_watcher.py:finish():409] scan save: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\requirements.txt requirements.txt
+2023-12-03 18:33:34,472 INFO    SenderThread:10212 [dir_watcher.py:finish():409] scan save: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\wandb-metadata.json wandb-metadata.json
+2023-12-03 18:33:34,472 INFO    SenderThread:10212 [dir_watcher.py:finish():409] scan save: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\wandb-summary.json wandb-summary.json
+2023-12-03 18:33:34,474 INFO    SenderThread:10212 [sender.py:transition_state():626] send defer: 10
+2023-12-03 18:33:34,474 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: defer
+2023-12-03 18:33:34,475 INFO    HandlerThread:10212 [handler.py:handle_request_defer():170] handle defer: 10
+2023-12-03 18:33:34,476 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: defer
+2023-12-03 18:33:34,477 INFO    SenderThread:10212 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-12-03 18:33:34,477 INFO    SenderThread:10212 [file_pusher.py:finish():168] shutting down file pusher
+2023-12-03 18:33:34,751 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: poll_exit
+2023-12-03 18:33:34,752 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: poll_exit
+2023-12-03 18:33:34,789 INFO    wandb-upload_0:10212 [upload_job.py:push():137] Uploaded file C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\conda-environment.yaml
+2023-12-03 18:33:34,834 INFO    wandb-upload_3:10212 [upload_job.py:push():137] Uploaded file C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\requirements.txt
+2023-12-03 18:33:34,835 INFO    wandb-upload_2:10212 [upload_job.py:push():137] Uploaded file C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\output.log
+2023-12-03 18:33:34,837 INFO    wandb-upload_4:10212 [upload_job.py:push():137] Uploaded file C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\wandb-summary.json
+2023-12-03 18:33:34,864 INFO    wandb-upload_1:10212 [upload_job.py:push():137] Uploaded file C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\files\config.yaml
+2023-12-03 18:33:35,081 INFO    Thread-44 :10212 [sender.py:transition_state():626] send defer: 11
+2023-12-03 18:33:35,081 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: defer
+2023-12-03 18:33:35,081 INFO    HandlerThread:10212 [handler.py:handle_request_defer():170] handle defer: 11
+2023-12-03 18:33:35,082 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: defer
+2023-12-03 18:33:35,082 INFO    SenderThread:10212 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-12-03 18:33:35,082 INFO    SenderThread:10212 [file_pusher.py:join():173] waiting for file pusher
+2023-12-03 18:33:35,082 INFO    SenderThread:10212 [sender.py:transition_state():626] send defer: 12
+2023-12-03 18:33:35,083 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: defer
+2023-12-03 18:33:35,083 INFO    HandlerThread:10212 [handler.py:handle_request_defer():170] handle defer: 12
+2023-12-03 18:33:35,083 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: defer
+2023-12-03 18:33:35,083 INFO    SenderThread:10212 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-12-03 18:33:35,300 INFO    SenderThread:10212 [sender.py:transition_state():626] send defer: 13
+2023-12-03 18:33:35,300 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: defer
+2023-12-03 18:33:35,300 INFO    HandlerThread:10212 [handler.py:handle_request_defer():170] handle defer: 13
+2023-12-03 18:33:35,301 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: defer
+2023-12-03 18:33:35,301 INFO    SenderThread:10212 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-12-03 18:33:35,301 INFO    SenderThread:10212 [sender.py:transition_state():626] send defer: 14
+2023-12-03 18:33:35,302 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: defer
+2023-12-03 18:33:35,302 DEBUG   SenderThread:10212 [sender.py:send():375] send: final
+2023-12-03 18:33:35,302 INFO    HandlerThread:10212 [handler.py:handle_request_defer():170] handle defer: 14
+2023-12-03 18:33:35,302 DEBUG   SenderThread:10212 [sender.py:send():375] send: footer
+2023-12-03 18:33:35,302 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: defer
+2023-12-03 18:33:35,302 INFO    SenderThread:10212 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-12-03 18:33:35,303 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: poll_exit
+2023-12-03 18:33:35,303 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: server_info
+2023-12-03 18:33:35,303 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: get_summary
+2023-12-03 18:33:35,303 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: poll_exit
+2023-12-03 18:33:35,304 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: sampled_history
+2023-12-03 18:33:35,304 DEBUG   SenderThread:10212 [sender.py:send_request():402] send_request: server_info
+2023-12-03 18:33:35,361 DEBUG   HandlerThread:10212 [handler.py:handle_request():144] handle_request: shutdown
+2023-12-03 18:33:35,361 INFO    HandlerThread:10212 [handler.py:finish():845] shutting down handler
+2023-12-03 18:33:36,305 INFO    WriterThread:10212 [datastore.py:close():298] close: C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_181941-gyon5c0q\run-gyon5c0q.wandb
+2023-12-03 18:33:36,369 INFO    SenderThread:10212 [sender.py:finish():1550] shutting down sender
+2023-12-03 18:33:36,369 INFO    SenderThread:10212 [file_pusher.py:finish():168] shutting down file pusher
+2023-12-03 18:33:36,369 INFO    SenderThread:10212 [file_pusher.py:join():173] waiting for file pusher

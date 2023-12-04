@@ -34,3 +34,54 @@ config: {'learning_rate': 0.0001, 'batch_size': 64, 'epochs': 30, 'weight_decay'
 2023-12-03 18:19:53,975 INFO    MainThread:36808 [wandb_run.py:_redirect():2077] Wrapping output streams.
 2023-12-03 18:19:53,975 INFO    MainThread:36808 [wandb_run.py:_redirect():2102] Redirects installed.
 2023-12-03 18:19:53,976 INFO    MainThread:36808 [wandb_init.py:init():824] run started, returning control to user process
+2023-12-03 18:32:58,498 INFO    MainThread:36808 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-12-03 18:32:58,498 INFO    MainThread:36808 [wandb_init.py:_pause_backend():418] pausing backend
+2023-12-03 18:33:14,033 INFO    MainThread:36808 [wandb_init.py:_resume_backend():423] resuming backend
+2023-12-03 18:33:14,357 INFO    MainThread:36808 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-12-03 18:33:14,358 INFO    MainThread:36808 [wandb_init.py:_pause_backend():418] pausing backend
+2023-12-03 18:33:15,815 INFO    MainThread:36808 [wandb_init.py:_resume_backend():423] resuming backend
+2023-12-03 18:33:15,817 INFO    MainThread:36808 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-12-03 18:33:15,817 INFO    MainThread:36808 [wandb_init.py:_pause_backend():418] pausing backend
+2023-12-03 18:33:16,210 INFO    MainThread:36808 [wandb_init.py:_resume_backend():423] resuming backend
+2023-12-03 18:33:16,314 INFO    MainThread:36808 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-12-03 18:33:16,315 INFO    MainThread:36808 [wandb_init.py:_pause_backend():418] pausing backend
+2023-12-03 18:33:16,709 INFO    MainThread:36808 [wandb_init.py:_resume_backend():423] resuming backend
+2023-12-03 18:33:16,711 INFO    MainThread:36808 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-12-03 18:33:16,711 INFO    MainThread:36808 [wandb_init.py:_pause_backend():418] pausing backend
+2023-12-03 18:33:17,107 INFO    MainThread:36808 [wandb_init.py:_resume_backend():423] resuming backend
+2023-12-03 18:33:17,110 INFO    MainThread:36808 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-12-03 18:33:17,110 INFO    MainThread:36808 [wandb_init.py:_pause_backend():418] pausing backend
+2023-12-03 18:33:18,519 INFO    MainThread:36808 [wandb_init.py:_resume_backend():423] resuming backend
+2023-12-03 18:33:18,521 INFO    MainThread:36808 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-12-03 18:33:18,521 INFO    MainThread:36808 [wandb_init.py:_pause_backend():418] pausing backend
+2023-12-03 18:33:18,891 INFO    MainThread:36808 [wandb_init.py:_resume_backend():423] resuming backend
+2023-12-03 18:33:18,892 INFO    MainThread:36808 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-12-03 18:33:18,893 INFO    MainThread:36808 [wandb_init.py:_pause_backend():418] pausing backend
+2023-12-03 18:33:19,261 INFO    MainThread:36808 [wandb_init.py:_resume_backend():423] resuming backend
+2023-12-03 18:33:31,948 INFO    MainThread:36808 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-12-03 18:33:31,949 INFO    MainThread:36808 [wandb_init.py:_pause_backend():418] pausing backend
+2023-12-03 18:33:32,348 INFO    MainThread:36808 [wandb_init.py:_resume_backend():423] resuming backend
+2023-12-03 18:33:32,350 INFO    MainThread:36808 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-12-03 18:33:32,351 INFO    MainThread:36808 [wandb_init.py:_pause_backend():418] pausing backend
+2023-12-03 18:33:32,718 INFO    MainThread:36808 [wandb_init.py:_resume_backend():423] resuming backend
+2023-12-03 18:33:32,732 INFO    MainThread:36808 [wandb_setup.py:_flush():76] Configure stats pid to 36808
+2023-12-03 18:33:32,732 INFO    MainThread:36808 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Josh\.config\wandb\settings
+2023-12-03 18:33:32,732 INFO    MainThread:36808 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Josh\Documents\laz_final_proj\wandb\settings
+2023-12-03 18:33:32,732 INFO    MainThread:36808 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-12-03 18:33:32,733 INFO    MainThread:36808 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-12-03 18:33:32,733 INFO    MainThread:36808 [wandb_init.py:_log_setup():507] Logging user logs to C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_183332-0hp17a52\logs\debug.log
+2023-12-03 18:33:32,734 INFO    MainThread:36808 [wandb_init.py:_log_setup():508] Logging internal logs to C:\Users\Josh\Documents\laz_final_proj\wandb\run-20231203_183332-0hp17a52\logs\debug-internal.log
+2023-12-03 18:33:32,734 INFO    MainThread:36808 [wandb_init.py:init():547] calling init triggers
+2023-12-03 18:33:32,734 INFO    MainThread:36808 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'learning_rate': 1e-05, 'batch_size': 64, 'epochs': 30, 'weight_decay': 1e-05}
+2023-12-03 18:33:32,734 INFO    MainThread:36808 [wandb_init.py:init():571] re-initializing run, found existing run on stack: gyon5c0q
+2023-12-03 18:33:32,736 INFO    MainThread:36808 [wandb_run.py:_finish():1892] finishing run joshl/vision-project-resnet/gyon5c0q
+2023-12-03 18:33:32,736 INFO    MainThread:36808 [jupyter.py:save_history():445] not saving jupyter history
+2023-12-03 18:33:32,736 INFO    MainThread:36808 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-12-03 18:33:32,737 INFO    MainThread:36808 [wandb_init.py:_jupyter_teardown():435] cleaning up jupyter logic
+2023-12-03 18:33:32,737 INFO    MainThread:36808 [wandb_run.py:_atexit_cleanup():2126] got exitcode: 0
+2023-12-03 18:33:32,737 INFO    MainThread:36808 [wandb_run.py:_restore():2109] restore
+2023-12-03 18:33:32,737 INFO    MainThread:36808 [wandb_run.py:_restore():2115] restore done
+2023-12-03 18:33:36,369 INFO    MainThread:36808 [wandb_run.py:_footer_history_summary_info():3476] rendering history
+2023-12-03 18:33:36,369 INFO    MainThread:36808 [wandb_run.py:_footer_history_summary_info():3508] rendering summary
+2023-12-03 18:33:36,375 INFO    MainThread:36808 [wandb_run.py:_footer_sync_info():3434] logging synced files

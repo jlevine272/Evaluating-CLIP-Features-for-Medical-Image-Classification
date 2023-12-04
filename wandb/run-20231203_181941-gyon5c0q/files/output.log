@@ -1,0 +1,11 @@
+
+Epoch 2/30, Train Loss: 0.0771, Train Accuracy: 0.9754, Test Accuracy: 0.8457
+Epoch 4/30, Train Loss: 0.0427, Train Accuracy: 0.9873, Test Accuracy: 0.8572
+Epoch 6/30, Train Loss: 0.0527, Train Accuracy: 0.9822, Test Accuracy: 0.8527
+Epoch 8/30, Train Loss: 0.0156, Train Accuracy: 0.9950, Test Accuracy: 0.8612
+Epoch 10/30, Train Loss: 0.0400, Train Accuracy: 0.9879, Test Accuracy: 0.8642
+Epoch 12/30, Train Loss: 0.0096, Train Accuracy: 0.9973, Test Accuracy: 0.8697
+Epoch 14/30, Train Loss: 0.0262, Train Accuracy: 0.9923, Test Accuracy: 0.8627
+Epoch 16/30, Train Loss: 0.0244, Train Accuracy: 0.9931, Test Accuracy: 0.8642
+Loading HAM10000 dataset...
+0.07189216175736396

@@ -2,13 +2,13 @@ wandb_version: 1
 
 learning_rate:
   desc: null
-  value: 0.0001
+  value: 1.0e-05
 batch_size:
   desc: null
   value: 64
 epochs:
   desc: null
-  value: 30
+  value: 50
 weight_decay:
   desc: null
   value: 1.0e-05
@@ -20,7 +20,7 @@ _wandb:
     framework: torch
     is_jupyter_run: true
     is_kaggle_kernel: false
-    start_time: 1701649184.907089
+    start_time: 1701651520.907379
     t:
       1:
       - 1
@@ -31,7 +31,6 @@ _wandb:
       - 41
       - 55
       3:
-      - 2
       - 16
       - 23
       4: 3.9.12
