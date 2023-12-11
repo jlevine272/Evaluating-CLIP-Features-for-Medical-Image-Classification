@@ -8,13 +8,13 @@ from torch.utils.data import Dataset, random_split
 import torch
 
 LESION_TYPE = {
-        'nv': 'Melanocytic nevi',
-        'mel': 'dermatofibroma',
-        'bkl': 'Benign keratosis-like lesions ',
-        'bcc': 'Basal cell carcinoma',
-        'akiec': 'Actinic keratoses',
-        'vasc': 'Vascular lesions',
-        'df': 'Dermatofibroma'
+        'nv'    : 'Melanocytic nevi',
+        'mel'   : 'dermatofibroma',
+        'bkl'   : 'Benign keratosis-like lesions ',
+        'bcc'   : 'Basal cell carcinoma',
+        'akiec' : 'Actinic keratoses',
+        'vasc'  : 'Vascular lesions',
+        'df'    : 'Dermatofibroma'
     }
 
 # here are 15 classes (14 diseases, and one for "No findings"). 
@@ -105,7 +105,6 @@ class NIHDataset(Dataset):
     def __init__(self, dataframe, transform=None):
         self.dataframe = dataframe
         self.transform = transform
-        print('NIH Dataset: ', self.transform)
 
     def __len__(self):
         return len(self.dataframe)
@@ -153,6 +152,7 @@ def load_nih_dataset_split(data_dir="data/nih/", transform=None, split=True):
 
     Returns a training and testing/val dataset
     """
+    print("Loading NIH dataset...")
     # load csv file
     csv_file_location = os.path.join(data_dir, "Data_Entry_2017.csv")
     # print(f"Loading csv file from {csv_file_location}")
